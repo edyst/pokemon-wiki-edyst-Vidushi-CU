@@ -27,7 +27,7 @@ body{
 }
 
 nav{
-    padding: 1rem;
+    padding:0 1rem;
 }
 
 .main-nav .options a{
@@ -89,21 +89,21 @@ nav{
 } */
 
 .section-1 .container{
-    color: white;
+    color: #fff;
 }
 .section-1 .container .apply_button{
     margin: 1rem 0;
     padding: 5px 50px;
     background-color: #4992ca;
     border: none;
-    color: white;
+    color: #fff;
 }
 .section-1 .container .schedule{
     margin: 1rem 0;
     padding: 10px 27px;
     background: transparent;
-    border: 1px solid white;
-    color: white;
+    border: 2px solid #fff;
+    color: #fff;
 }
 
 .columns {
@@ -121,7 +121,7 @@ nav{
 .section-2, .section-13{
     background-color: #4992ca;
     margin: 0;
-    color: white;
+    color: #fff;
     padding: 40px 0;
 }
 
@@ -161,7 +161,7 @@ h4{
 }
 
 .section-5{
-    color: white;
+    color: #fff;
     background-color: #4992ca;
     padding: 5rem;
 }
@@ -180,40 +180,40 @@ h4{
     background-color: #4992ca;
     border: none;
     border-radius: 0%;
-    color: white;
+    color: #fff;
 }
 .section-7 button, .section-11 button, .section-15 button{
     margin: 1rem 0;
     padding: 10px 50px;
-    background-color: transparent;
-    border: 2px solid white;
+    background-color: #0000;
+    border: 2px solid #fff;
     border-radius: 0%;
-    color: white;
+    color: #fff;
 }
 
 .section-11 input{
     margin: 1rem 0;
     padding: 10px 10px;
-    border: 2px solid white;
+    border: 2px solid #fff;
     border-radius: 0%;
-    color: white;
+    color: #fff;
     width: 30rem;
 }
 
 .section-7 , .section-11, .section-15{
     background-color: #424242;
     padding: 5rem 5rem;
-    color: white;
+    color: #fff;
 }
 
 .section-15{
     background-color: #4992ca;
     padding: 1rem 5rem;
-    color: white;
+    color: #fff;
 }
 
 .section-8 .main-card{
-    background-color: white;
+    background-color: #fff;
 	width: 22%;
 	padding: 0;
 	padding-bottom: 20px;
@@ -226,7 +226,7 @@ h4{
 
 .section-9{
     background-color: #4992ca ;
-    color: white;
+    color: #fff;
     padding: 5rem 0rem;
 }
 /* section 10 */
@@ -274,7 +274,7 @@ h4{
     padding: 5px 50px;
     background-color: #4992ca;
     border: none;
-    color: white;
+    color: #fff;
     margin: 1rem 0;
     padding: 10px 50px;
     }
@@ -291,10 +291,10 @@ h4{
     .foot{
         padding: 20px;
         background-color: #021412;
-        color: white;
+        color: #fff;
     }
 
-    .foot ul li{
+    ul li{
         list-style: none;
         padding-bottom: 1rem;
     }
