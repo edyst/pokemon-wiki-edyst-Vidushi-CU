@@ -1,0 +1,300 @@
+@media (min-width:576px){
+    .container{
+        max-width:540px;
+    }
+}
+@media (min-width:768px){
+    .container{
+        max-width:700px;
+    }
+}
+@media (min-width:992px){
+    .container{
+        max-width:860px;
+    }
+}
+@media (min-width:1200px) {
+    .container{
+        max-width:952px;
+    }
+}
+
+body{
+    font-family: Avenir-Next,Roboto,sans-serif;
+    font-size: 14px;
+    margin: 0%;
+    margin-right: 2px;
+}
+
+nav{
+    padding: 1rem;
+}
+
+.main-nav .options a{
+    text-decoration: none;
+    color: gray;
+    margin-right: 3rem;
+    
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+.text-center{
+    text-align: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+
+.container{
+    width:100%;
+    padding: 0 15px;
+    margin:0 auto;
+}
+
+.section-1 .container h1{
+    font-size: 90px;
+    margin:0;
+}
+.section-1 .container h3{
+    font-size: 33px;
+    margin: 0;
+}
+
+.section-1{
+    background: url(./images/blur.jpg);
+	background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.overlay {
+    background-color: #000000b3;
+    padding: 50px;
+  }
+  
+
+/* .section-1{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ),url("./images/blur.jpg");
+    padding: 10rem 0;
+    /* filter: brightness(50%); 
+} */
+
+.section-1 .container{
+    color: white;
+}
+.section-1 .container .apply_button{
+    margin: 1rem 0;
+    padding: 5px 50px;
+    background-color: #4992ca;
+    border: none;
+    color: white;
+}
+.section-1 .container .schedule{
+    margin: 1rem 0;
+    padding: 10px 27px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.columns {
+	display: flex;
+	align-items: center;
+
+}
+
+.section-1 .container .learnmore{
+    margin: 1rem 0;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+.section-2, .section-13{
+    background-color: #4992ca;
+    margin: 0;
+    color: white;
+    padding: 40px 0;
+}
+
+h2{
+    font-size: 45px;
+}
+
+h6{
+    font-size: 16px;
+    font-weight: 100;
+    margin: 0%;
+}
+
+h4{
+    font-size: 30px;
+}
+
+.pokemon {
+	height: 80px;
+	width: 170px;
+}
+
+.pokimg {
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	flex-shrink: 1;
+}
+
+.section-4 h4{
+    color: black;
+    margin-bottom: 0;
+}
+.section-4{
+    color: gray;
+    padding-bottom: 5rem;
+}
+
+.section-5{
+    color: white;
+    background-color: #4992ca;
+    padding: 5rem;
+}
+
+.section-6 table, td, th{
+    border: 1px solid #8a8a8a;
+    padding: 5px 5px;
+}
+.section-6 table td{
+    color: #8a8a8a;
+}
+
+.section-6 .for-button button{
+    margin: 1rem 0;
+    padding: 10px 50px;
+    background-color: #4992ca;
+    border: none;
+    border-radius: 0%;
+    color: white;
+}
+.section-7 button, .section-11 button, .section-15 button{
+    margin: 1rem 0;
+    padding: 10px 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 0%;
+    color: white;
+}
+
+.section-11 input{
+    margin: 1rem 0;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 0%;
+    color: white;
+    width: 30rem;
+}
+
+.section-7 , .section-11, .section-15{
+    background-color: #424242;
+    padding: 5rem 5rem;
+    color: white;
+}
+
+.section-15{
+    background-color: #4992ca;
+    padding: 1rem 5rem;
+    color: white;
+}
+
+.section-8 .main-card{
+    background-color: white;
+	width: 22%;
+	padding: 0;
+	padding-bottom: 20px;
+	border: 2px #F0F0F0 solid;
+}
+.sub-card{
+    background-color: #F0F0F0;
+	border-top: 20px #4992ca solid;
+}
+
+.section-9{
+    background-color: #4992ca ;
+    color: white;
+    padding: 5rem 0rem;
+}
+/* section 10 */
+.card {
+    width: 478px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin: 8px;
+    line-height:24px;
+    
+    }
+    
+    .card-sub-heading {
+    font-weight: 700;
+    height: 45px;
+    color: #3c3333;
+    text-align: left;
+    font-size: 2rem;
+    line-height: 1.2;
+    }
+    
+    .card-body {
+    padding: 10px;
+    }
+    
+    .card-header {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    border-top:16px solid #4992ca;
+    background-color:rgba(0, 0, 0, 0.03);
+    padding: 0 1rem;
+    }
+
+    .section-12 .gamimg {
+        width: 150px;
+        height: 200px;
+    }
+    .okay {
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 0;
+    }
+
+    .see-more{
+        margin: 1rem 0;
+    padding: 5px 50px;
+    background-color: #4992ca;
+    border: none;
+    color: white;
+    margin: 1rem 0;
+    padding: 10px 50px;
+    }
+
+    .rows {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 20px;
+        justify-content: space-between;
+        padding: 0 100px;
+    }
+
+    .foot{
+        padding: 20px;
+        background-color: #021412;
+        color: white;
+    }
+
+    .foot ul li{
+        list-style: none;
+        padding-bottom: 1rem;
+    }
